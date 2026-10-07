@@ -17,5 +17,5 @@ Check-ins expire automatically after 3 hours.
 Open `index.html` in any browser. No build step or dependencies.
 
 ## Notes
-Check-ins are stored in your browser (localStorage), so they're only
+Check-ins are stored in firebase, so they're only
 visible on your own device.
