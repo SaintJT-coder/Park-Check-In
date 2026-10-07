@@ -6,7 +6,7 @@ const { onValueWritten } = require("firebase-functions/v2/database");
 const admin = require("firebase-admin");
 admin.initializeApp();
 
-const SITE_URL = "https://YOUR-USERNAME.github.io/YOUR-REPO/"; // <- change
+const SITE_URL = "https://saintjt-coder.github.io/Park-Check-In/"; // <- change
 const TTL = 3 * 3600 * 1000; // same 3-hour expiry as the app
 
 async function sendToAll(title, body, excludeUid) {
