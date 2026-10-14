@@ -1,0 +1,8 @@
+{
+  "name": "park-check-in-notifications",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "firebase-admin": "^13.0.2"
+  }
+}
