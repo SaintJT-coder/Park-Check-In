@@ -27,4 +27,4 @@ jobs:
       - name: Deploy to Firebase
         run: firebase deploy --only functions --project check-in-d31e8 --non-interactive
         env:
-          GOOGLE_APPLICATION_CREDENTIALS: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
+          GOOGLE_APPLICATION_CREDENTIALS_JSON: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
