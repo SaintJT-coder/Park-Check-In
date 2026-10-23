@@ -8,7 +8,7 @@ A simple web app for letting friends know you're at the basketball court.
 - Cerritos Courts
 
 ## Use it
-Open the live site: `https://YOUR-USERNAME.github.io/YOUR-REPO/`
+Open the live site: `[https://YOUR-USERNAME.github.io/YOUR-REPO/](https://saintjt-coder.github.io/Park-Check-In/)`
 
 Enter your name, tap **Check in** at a park, and tap again to leave.
 Check-ins expire automatically after 3 hours.
