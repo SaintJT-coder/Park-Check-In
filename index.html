@@ -31,6 +31,7 @@ li span:last-child{color:var(--muted)}
 .foot{color:var(--muted);font-size:12px;text-align:center;margin-top:20px}
 .bottom-ad{margin-top:32px;padding-top:16px;border-top:1px solid var(--line)}
 .ad-label{margin:0 0 12px;text-align:center;font-size:12px;color:var(--muted)}
+.guide{margin-top:28px;line-height:1.65}.guide p{font-size:14px}.guide h2{font-size:23px}.guide h3{font-size:18px}.guide a,.privacy-note a{display:inline;background:none;padding:0;border-radius:0;color:#b54300;text-decoration:underline}.privacy-note{font-size:12px}label{display:block;font-size:13px;margin-bottom:6px}
 </style>
 <meta name="theme-color" content="#e8590c">
 <meta name="apple-mobile-web-app-capable" content="yes">
@@ -38,7 +39,7 @@ li span:last-child{color:var(--muted)}
 <meta name="apple-mobile-web-app-title" content="Court Check-In">
 <link rel="manifest" href="./manifest.webmanifest">
 <link rel="icon" type="image/svg+xml" href="./app-icon.svg">
-<meta name="app-release" content="2026-10-23-bottom-ad-1">
+<meta name="app-release" content="2026-10-25-privacy-1">
 <style id="pwa-styles">#app-update-banner{position:fixed;z-index:2147483646;left:12px;right:12px;bottom:calc(12px + env(safe-area-inset-bottom,0px));background:#172238;color:white;border:1px solid #5a718e;border-radius:14px;padding:12px 16px;display:none;align-items:center;justify-content:space-between;gap:12px;font:600 14px system-ui,sans-serif;box-shadow:0 8px 24px #0005}#app-update-banner button{background:#fff;color:#172238;border:0;border-radius:9px;padding:10px 14px;font:700 14px system-ui;min-height:40px}@media(max-width:360px){#app-update-banner{left:6px;right:6px;padding:10px}}</style>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1365184448874951"
      crossorigin="anonymous"></script>
@@ -48,10 +49,13 @@ li span:last-child{color:var(--muted)}
   <h1>🏀 Court Check-In</h1>
   <p class="sub">See who's hooping and let everyone know you're there.</p>
   <div id="notifBar" class="notif"></div>
+  <p class="privacy-note">Your nickname and check-in are public. <a href="/privacy.html">Privacy policy</a></p>
+  <label for="who">Nickname</label>
   <input id="who" placeholder="Your name" maxlength="24" autocomplete="off">
   <p class="msg" id="msg"></p>
   <div id="parks"></div>
   <p class="foot">Check-ins expire after 3 hours · updates every 10s</p>
+<section class="guide"><h2>Plan a pickup game</h2><p>Court Check-In helps players coordinate at Sierra Bella, Green River Clubhouse, and Cerritos Courts. Compare active check-ins before heading out. The counts reflect voluntary reports, not a verified headcount: players may leave early or play without checking in. An empty list means no active reports, not necessarily an empty court.</p><h3>How to check in</h3><p>Enter a nickname and tap Check in when you arrive. Your nickname, court, and arrival time are visible to everyone. Choose another court to move your check-in, or tap Leave when you finish. Active check-ins disappear after three hours; check in again if you are still playing after yours expires.</p><h3>Before you go</h3><p>This app does not reserve courts or confirm opening hours, public access, lighting, or availability. Check the venue's posted rules and access requirements before traveling. Respect other players and only check in for yourself when you are there. Court Check-In is an independent community tool, not affiliated with court operators.</p><h3>Notifications and updates</h3><p>The app refreshes its list every ten seconds while open. Optional notifications announce new check-ins. On iPhone, add the site to your Home Screen and open it there before enabling notifications. Manage notification permission in your browser or device settings.</p><h3>Help and feedback</h3><p>If the list cannot load, check your connection and wait for a refresh. A saved nickname identifies this browser, not a signed-in account; another browser or cleared storage creates a new identity. Report problems through the <a href="https://github.com/SaintJT-coder/Park-Check-In/issues">project issue tracker</a>. Issues are public; do not post personal or sensitive details.</p><nav><a href="/privacy.html">Privacy policy</a> · <a href="/Park-Check-In/">Open app</a></nav></section>
   <aside class="bottom-ad" aria-label="Advertisement">
     <p class="ad-label">Advertisement</p>
     <!-- Court Check-In Bottom -->
