@@ -4,6 +4,10 @@ on:
   push:
     branches:
       - main
+    paths:
+      - 'functions/**'
+      - 'firebase.json'
+  workflow_dispatch:
 
 jobs:
   deploy:
@@ -28,6 +32,6 @@ jobs:
         run: echo '${{ secrets.FIREBASE_SERVICE_ACCOUNT }}' > ${{ runner.temp }}/gcp-key.json
 
       - name: Deploy to Firebase
-        run: firebase deploy --only functions --project check-in-d31e8 --non-interactive --force
+        run: firebase deploy --only functions --project check-in-d31e8 --non-interactive
         env:
           GOOGLE_APPLICATION_CREDENTIALS: ${{ runner.temp }}/gcp-key.json
